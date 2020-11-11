@@ -20,7 +20,7 @@ function value()
     return 1
  fi
  
-    grep "^[dtprDTPR][vfhwVFHW]." file.txt > file2.txt
+    grep "^[dtpDTPR][vfhwVFHW]." file.txt > file2.txt
  if [ -s file2.txt ]
     then
     echo -n > file.txt
@@ -114,7 +114,7 @@ function value()
     return 12
  fi 
  
- grep "^[dtpDTP][eiEI][lnmLNM][eiEI][tdTD]\W*" file.txt > file2.txt
+ grep "^[dtpDTP][eiEI][lnmLNM][eiEI][tdTDmM]\W*" file.txt > file2.txt
  
  if [ -s file2.txt ]
     then
