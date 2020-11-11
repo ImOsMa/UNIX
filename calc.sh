@@ -28,7 +28,7 @@ function value()
     return 2
  fi
    
-   grep "^[tpdTD][rlnRN]." file.txt > file2.txt
+   grep "^[tdTD][rnRN]." file.txt > file2.txt
  if [ -s file2.txt ]
     then
     echo -n > file.txt
