@@ -143,7 +143,7 @@ done
 
 while true
 do 
- echo "Enter the opeation"
+ echo "Enter the operation"
  read op
  value $op
  op=`echo $?`
@@ -191,7 +191,7 @@ do
   then
   echo "Enter the correct variant! Division on zero!"
   
-  elif [ $num2 -le 9  -a $num2 != 0  -a "$op" == "/" ] 
+  elif [ $num2 -le 9  -a $num2 != 0  -a "$op" != "/" ] 
   then
     break
   
